@@ -179,5 +179,50 @@ public function userdata($mobile) {
 }
 
 
+
+public function change_status($mobile){
+$query=$this->db->prepare("UPDATE `rikshaw_details` SET `Status`=1  WHERE `Phone Number`=?");
+$query->bindValue(1,$mobile);
+
+try{
+$query->execute();
+//return $query->fetch();
+}
+catch(PDOException $e){
+ die($e->getMessage());
+
+
+}
+}
+
+
+public function show_rikshaws(){
+$query="SELECT * FROM `rikshaw_details` WHERE `Status`= 'Busy' ";
+
+try{
+$results=mysql_query($query);
+return $results;
+}
+
+catch(PDOException $e){
+ die($e->getMessage());
+
+
+}
+}
+public function check_status($mobile){
+$query=$this->db->prepare("Select `Status` FROM `rikshaw_details` WHERE `Phone Number`='.$mobile.'");
+
+try{
+$query->execute();
+return $query->fetch();
+}
+catch(PDOException $e){
+ die($e->getMessage());
+
+
+}
+
+}
 }
 ?>
