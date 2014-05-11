@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
 }
  
 if (isset($_GET['success']) && empty($_GET['success'])) {
-  echo 'Thank you for registering. Please check your email.';
+  echo 'Thank you for registering. Please Login to change your Available/Busy.';
 }
 ?>
 <html>
@@ -81,5 +81,9 @@ if (isset($_GET['success']) && empty($_GET['success'])) {
 		?>
  
 	</div>
+	<img id='im1' src='css/images/rp1.jpg'>
+	<img id='im2' src='css/images/pw1.jpg'>
+	<img id='im3' src='css/images/rp2.jpg'>
+	<img id='im4' src='css/images/pw2.jpg'>
 </body>
 </html>
