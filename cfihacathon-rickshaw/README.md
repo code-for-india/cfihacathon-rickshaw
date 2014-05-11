@@ -1,6 +1,1 @@
-An app which Connects people.
-Celebrities often find difficulities in communation with people.
-Leaders of an area are not in touch of his/her own people.
-This app allows people to Attended the meeting scheduled by Celebrity,
-Politicions,Governors,Prime Minister or whatever.
-The App is a small portion of <b>Project TI</b> (Transparent India) being developed by me.
+A significant portion of cycle rickshaw pullers’ working hours are spent searching or waiting for passengers. On the other hand, passengers are also seen searching for rickshaws. The demand-supply mismatch differs across locations, with concentration of cycle rickshaws in high traffic zones, and passengers in interior lanes having to walk.
